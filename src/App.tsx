@@ -4,6 +4,7 @@ import { Input } from "./components/Input";
 import { List } from "./components/List";
 import store from "./store";
 
+import './styles/global.scss'
 
 function App() {
   return (

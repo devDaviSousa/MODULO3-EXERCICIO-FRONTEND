@@ -5,7 +5,7 @@ import { IPesquisa } from "../../store/modules/pesquisa/types";
 import { ItemList } from "../ItemList";
 import { ILeitura } from "./types";
 
-
+import './styles.scss'
 
 export function List() {
 
@@ -13,7 +13,6 @@ export function List() {
 
   const pesquisa = useSelector<IPesquisa, string>(state => state.pesquisa);
 
-  console.log(pesquisa)
 
   useEffect(() => {
     api.get(`${pesquisa}`)

@@ -1,0 +1,30 @@
+
+
+
+li{
+  background: white;
+  margin-bottom: 0.3rem;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  width: 65%;
+
+
+  h3{
+    margin-bottom: 0.2rem;
+  }
+  p{
+    margin-bottom: 0.6rem;
+  }
+
+  .leitura{
+    background: var(--green);
+    width: 5.8rem;
+    padding: 0.4rem;
+    text-align: center;    
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+}
