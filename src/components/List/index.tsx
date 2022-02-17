@@ -9,7 +9,7 @@ import './styles.scss'
 
 export function List() {
 
-  const [leituras, setLeituras] = useState<ILeitura[]>([])
+  const [leituras, setLeituras] = useState<ILeitura[]>([]);
 
   const pesquisa = useSelector<IPesquisa, string>(state => state.pesquisa);
 

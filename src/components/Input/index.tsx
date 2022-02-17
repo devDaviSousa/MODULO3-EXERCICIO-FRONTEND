@@ -18,7 +18,7 @@ export function Input() {
   const handleAddProductToCart = useCallback(() => {
     const value: string = searchTerm
     dispatch(pesquisarNaLista(value))
-  }, [dispatch, searchTerm])
+  }, [dispatch, searchTerm]);
 
 
   return (
